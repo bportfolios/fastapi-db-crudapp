@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi-mongodb-crudapp"
+version = "0.1.0"
+description = "udemy course app"
+authors = ["Bipika Amatya <bipika.amatya@bithouse.fi>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "fastapi_mongodb_crudapp"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
